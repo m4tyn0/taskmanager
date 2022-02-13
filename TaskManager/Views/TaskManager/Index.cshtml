@@ -24,17 +24,15 @@
     <div class="container-fluid"><div class="row row-cols-5">
     @foreach (var item in Model)
     {
-<div class="card col border-dark" style="max-width: 18rem;min-width:10rem ;min-height:18rem;">
+<div class="card col" style="max-width: 18rem;min-width:10rem ;min-height:18rem;">
     <div class="card-header d-flex justify-content-between">
         @Html.DisplayFor(modelItem => item.Name)
         
-        <div class="card-subtitle mb-2 text-muted d-flex">
+     <div class="card-subtitle mb-2 text-muted d-flex">
             @Html.DisplayFor(modelItem => item.tag)
-        </div>
+     </div>
     </div>
-
-   
-    <div class="card-text text-dark">
+    <div class="card-text">
         @Html.DisplayFor(modelItem => item.Content)
     </div>
    

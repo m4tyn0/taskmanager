@@ -45,7 +45,7 @@ namespace TaskManager.Controllers
             return View();
         }
 
-        
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Content,tag")] TaskUnit taskUnit)

@@ -1,0 +1,51 @@
+@model TaskManager.Models.TaskUnit
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Content" class="control-label"></label>
+                <input asp-for="Content" class="form-control" />
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-check form-check-inline">
+                <input asp-for="tag" class="form-check-input" type="radio" id="inlineRadio1" value="Work">
+                <label asp-for="tag" class="form-check-label" for="inlineRadio1">Work</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input asp-for="tag" class="form-check-input" type="radio" id="InlineRadio2" value="Home">
+                <label asp-for="tag" class="form-check-label" for="inlineRadio2">Home</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input asp-for="tag" class="form-check-input" type="radio" id="inlineRadio3" value="Hobbies">
+                <label asp-for="tag" class="form-check-label" for="inlineRadio3">Hobbies</label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

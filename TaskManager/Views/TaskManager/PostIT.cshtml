@@ -1,0 +1,66 @@
+﻿@page
+@model TaskManager.Views.TaskManager.PostITModel
+@{
+}
+@model IEnumerable<TaskManager.Models.TaskUnit>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tag)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <div class="plocha">
+            @foreach (var item in Model)
+            {
+                <div class="task">
+                    <div class="name">
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </div>
+                    <div class="content">
+                        @Html.DisplayFor(modelItem => item.Content)
+                    </div>
+                    <div class="tag">
+                        @Html.DisplayFor(modelItem => item.tag)
+                    </div>
+                    <div class="time-created">
+                        @Html.DisplayFor(modelItem => item.TimeCreated)
+                    </div>
+                    <div class="stopwatch">
+                        <i class="bi bi-stopwatch-fill"></i>
+                        <p class="stopwatch-time"></p>
+                        <button asp-controller="ButtonController" class="startwatch"><i class="bi bi-play-circle-fill"></i></button>
+                        <button class="stopwatch"><i class="bi bi-stop-circle-fill"></i></button>
+                        <button class="pausewatch"><i class="bi bi-pause-circle-fill"></i></button>
+                        <button class="restartwatch"><i class="bi bi-skip-start-circle-fill"></i></button>
+
+                    </div>
+                    <div class="options">
+                        <a asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-fill"></i></a> |
+                        <a asp-action="Details" asp-route-id="@item.Id"><i class="bi bi-zoom-in"></i></a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-trash-fill"></i></a> |
+                    </div>
+                </div>
+            }
+        </div>
+    </tbody>
+</table>

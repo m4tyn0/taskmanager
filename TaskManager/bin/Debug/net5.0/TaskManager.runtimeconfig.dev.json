@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/matyno/.dotnet/store/|arch|/|tfm|",
+      "/Users/matyno/.nuget/packages"
+    ]
+  }
+}

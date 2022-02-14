@@ -1,0 +1,59 @@
+﻿<Properties StartupConfiguration="{8D97B4D4-DE0D-4EF6-B3A6-4E18337AC3C6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TaskManager/Views/TaskManager/Create.cshtml">
+    <Files>
+      <File FileName="TaskManager/Views/TaskManager/Index.cshtml" Line="18" Column="28" />
+      <File FileName="TaskManager/Views/TaskManager/Details.cshtml" Line="40" Column="32" />
+      <File FileName="TaskManager/Views/TaskManager/Edit.cshtml" Line="27" Column="126" />
+      <File FileName="TaskManager/Views/Shared/_Layout.cshtml" Line="27" Column="14" />
+      <File FileName="TaskManager/Views/TaskManager/Create.cshtml" Line="12" Column="17" />
+      <File FileName="TaskManager/Views/TaskManager/Delete.cshtml" Line="45" Column="16" />
+      <File FileName="TaskManager/Models/TaskUnit.cs" Line="25" Column="10" />
+      <File FileName="TaskManager/Controllers/TaskManagerController.cs" Line="1" Column="1" />
+      <File FileName="TaskManager/Data/TaskManagerContext.cs" Line="1" Column="1" />
+      <File FileName="TaskManager/Icons/plus-lg.svg" Line="1" Column="1" />
+      <File FileName="TaskManager/Migrations/20220214125302_ThirdCreate.cs" Line="1" Column="1" />
+      <File FileName="TaskManager/Migrations/TaskManagerContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="TaskManager/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="TaskManager/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="TaskManager/Views/Home/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="TaskManager/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="TaskManager/Views/Shared/Error.cshtml" Line="1" Column="1" />
+      <File FileName="TaskManager/Startup.cs" Line="1" Column="1" />
+      <File FileName="TaskManager/Program.cs" Line="1" Column="1" />
+      <File FileName="TaskManager/wwwroot/css/site.css" Line="127" Column="19" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TaskManager" expanded="True">
+            <Node name="TaskManager" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Icons" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="TaskManager" expanded="True">
+                  <Node name="Create.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TaskManager PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

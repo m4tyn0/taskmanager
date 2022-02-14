@@ -18,9 +18,28 @@ namespace TaskManager.Controllers
             this.context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public ActionResult Index(string sortOrder)
         {
-             return View(await this.context.TaskUnit.ToListAsync());
+            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : ""; 
+            ViewBag.DateSortParm = sortOrder == "date" ? "date_desc" : "date";
+            var tasks = from TaskUnit in context.TaskUnit
+                           select TaskUnit;
+            switch (sortOrder)
+            {
+                case "name_desc":
+                    tasks = tasks.OrderByDescending(TaskUnit => TaskUnit.Name);
+                    break;
+                case "date":
+                    tasks = tasks.OrderBy(TaskUnit => TaskUnit.TimeCreated);
+                    break;
+                case "date_desc":
+                    tasks = tasks.OrderByDescending(TaskUnit => TaskUnit.TimeCreated);
+                    break;
+                default:
+                    tasks = tasks.OrderBy(TaskUnit => TaskUnit.Name);
+                    break;
+            }
+            return View(tasks.ToList());
         }
 
         public async Task<IActionResult> Details(string id)
@@ -48,10 +67,10 @@ namespace TaskManager.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Content,tag")] TaskUnit taskUnit)
+        public async Task<IActionResult> Create([Bind("Id,Name,Content,tag,TimeCreated,TimeElapsed")] TaskUnit taskUnit)
         {
             if (ModelState.IsValid)
-            {
+            {  
                 this.context.Add(taskUnit);
                 await this.context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -66,7 +85,7 @@ namespace TaskManager.Controllers
                 return NotFound();
             }
 
-            var taskUnit = await this.context.TaskUnit.FindAsync(id);
+            var taskUnit = await this.context.TaskUnit.FindAsync(id); 
             if (taskUnit == null)
             {
                 return NotFound();
@@ -77,7 +96,7 @@ namespace TaskManager.Controllers
        
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,Name,Content,tag")] TaskUnit taskUnit)
+        public async Task<IActionResult> Edit(string id, [Bind("Id,Name,Content,tag,TimeCreated,TimeElapsed")] TaskUnit taskUnit)
         {
             if (id != taskUnit.Id)
             {

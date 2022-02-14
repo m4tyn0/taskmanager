@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace TaskManager.Migrations
 {
@@ -13,7 +14,8 @@ namespace TaskManager.Migrations
                     Id = table.Column<string>(type: "TEXT", nullable: false),
                     Name = table.Column<string>(type: "TEXT", nullable: true),
                     Content = table.Column<string>(type: "TEXT", nullable: true),
-                    tag = table.Column<string>(type: "TEXT", nullable: true)
+                    tag = table.Column<string>(type: "TEXT", nullable: true),
+                    TimeCreated = table.Column<DateTime>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {

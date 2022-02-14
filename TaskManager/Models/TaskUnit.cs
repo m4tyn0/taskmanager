@@ -12,9 +12,9 @@ namespace TaskManager.Models
         public string Name { get; set; }
         public string Content { get; set; }
         public string tag { get; set; }
-        [DataType(DataType.DateTime)]
-        public DateTime TimeCreated { get; }
-        [DataType(DataType.DateTime)]
+    
+        public DateTime TimeCreated { get; set; }
+       
         protected TimeSpan TimeElapsed { get; set; }
 
 

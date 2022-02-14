@@ -1,8 +1,6 @@
 @model IEnumerable<TaskManager.Models.TaskUnit>
 
-@{
-    ViewData["Title"] = "Task Manager";
-}
+@{ ViewData["Title"] = "task manager"; }
 
 
 
@@ -18,45 +16,52 @@
             <th>
                 @Html.DisplayNameFor(model => model.tag)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TimeCreated)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TimeElapsed)
+            </th>
             <th></th>
         </tr>
     </thead>*@
-    <div class="container-fluid"><div class="row row-cols-5">
-    @foreach (var item in Model)
-    {
+<div class="container-fluid">
+    <div class="row row-cols-5">
+        @foreach (var item in Model)
+        {
 <div class="card col" style="max-width: 18rem;min-width:10rem ;min-height:18rem;">
     <div class="card-header d-flex justify-content-between">
         @Html.DisplayFor(modelItem => item.Name)
-        
-     <div class="card-subtitle mb-2 text-muted d-flex">
+
+        <div class="card-subtitle mb-2 text-muted d-flex">
             @Html.DisplayFor(modelItem => item.tag)
-     </div>
+        </div>
     </div>
     <div class="card-text">
         @Html.DisplayFor(modelItem => item.Content)
     </div>
-   
-    @*<div class="stopwatch">
-        <i class="bi bi-stopwatch-fill"></i>
-        <p class="stopwatch-time">11:11:11</p>
-        <button asp-controller="ButtonController" type="button" class="btn btn-dark startwatch"><i class="bi bi-play-circle-fill"></i></button>
-        <button type="button" class="btn btn-dark stop"><i class="bi bi-stop-circle-fill"></i></button>
-        <button type="button" class="btn btn-dark pausewatch"><i class="bi bi-pause-circle-fill"></i></button>
-        <button type="button" class="btn btn-dark restartwatch"><i class="bi bi-skip-start-circle-fill"></i></button>
 
-    </div>*@
-<div class="div-footer options-container d-flex flex-row justify-content-between">
-    <div class="options p-2 ">
-        <a asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-fill" fill="black"></i></a>
-        <a asp-action="Details" asp-route-id="@item.Id"><i class="bi bi-zoom-in" fill="black"></i></a>
-        <a asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-trash-fill" fill="black"></i></a>
+    @*<div class="stopwatch">
+            <i class="bi bi-stopwatch-fill"></i>
+            <p class="stopwatch-time">11:11:11</p>
+            <button asp-controller="ButtonController" type="button" class="btn btn-dark startwatch"><i class="bi bi-play-circle-fill"></i></button>
+            <button type="button" class="btn btn-dark stop"><i class="bi bi-stop-circle-fill"></i></button>
+            <button type="button" class="btn btn-dark pausewatch"><i class="bi bi-pause-circle-fill"></i></button>
+            <button type="button" class="btn btn-dark restartwatch"><i class="bi bi-skip-start-circle-fill"></i></button>
+
+        </div>*@
+    <div class="div-footer options-container d-flex flex-row justify-content-between">
+        <div class="options p-2 ">
+            <a asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-fill" fill="black"></i></a>
+            <a asp-action="Details" asp-route-id="@item.Id"><i class="bi bi-zoom-in" fill="black"></i></a>
+            <a asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-trash-fill" fill="black"></i></a>
+        </div>
+        <div class="time-created p-2 ">
+            @Html.DisplayFor(modelItem => item.TimeCreated)
+        </div>
     </div>
-    <div class="time-created p-2 ">
-        @Html.DisplayFor(modelItem => item.TimeCreated)
-    </div>
-</div>
 </div>}
-</div>
     </div>
-    
+</div>
+
 

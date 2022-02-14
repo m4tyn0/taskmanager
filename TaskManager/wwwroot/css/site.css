@@ -10,11 +10,10 @@ a.navbar-brand {
     
 }
 .header {
-    background-color: #343a40;
-    border-radius:15px;
-    margin: 5px;
-
-
+    background-color: #555555;
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 10px;
 }
 a {
     color: whitesmoke;
@@ -22,17 +21,16 @@ a {
 }
 .card {
     border-radius: 15px;
-    background-color: #343a40;
-    border: 10px, green;
+    background-color: #676767;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     box-shadow: 10px;
-    color:whitesmoke;
-    
+    color: whitesmoke;
 }
+
 .navbar-brand{
     font-size: 2.2em;
-    padding-bottom:0.em;
+    padding-bottom:0em;
     vertical-align:middle;
     text-align:justify;
     padding-top: 0.1em;
@@ -99,16 +97,17 @@ html {
   min-height: 100%;
 }
 
-body {background-color:ghostwhite;
-  
-  margin-bottom: 60px;
+body {
+    background-color: #B2BEB5;
+    margin-bottom: 60px;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 30px; 
+    color: #555555;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 30px;
 }
 .div-footer{
     position:absolute;
@@ -118,7 +117,7 @@ body {background-color:ghostwhite;
     margin-left:1rem;
 }
 .add-task {
-    background-color: #343a40;
+   
     border: none;
     color: whitesmoke;
     padding: 0px;
@@ -128,6 +127,8 @@ body {background-color:ghostwhite;
     font-size: 16px;
     min-height: 20px;
     min-width: 20px;
-    padding: 0px !important;
-    
+}
+.centerovac{
+    max-width:450px;
+    justify-self:center;
 }

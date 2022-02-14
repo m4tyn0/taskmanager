@@ -1,20 +1,26 @@
 @model TaskManager.Models.TaskUnit
 
+
 @{
     ViewData["Title"] = "Create";
 }
 
-    <h1>Create</h1>
+    <h1>create</h1>
 
 
-    <hr />
-    <div class="  d-flex justify-content-center card">
-        <div class="col-md-4">
+    
+    <div class="d-flex row centerovac card ">
+        <div class="col-md-4 centerovac ">
             <form asp-action="Create">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
+                    <label asp-for="TimeCreated" class="control-label"></label>
+                    <input asp-for="TimeCreated" class="form-control" value="@{DateTime.Now.ToString("DD-MM-YYYYThh:mm");}" />
+                    <span asp-validation-for="TimeCreated" class="text-danger"></span>
+                </div>
+                <div class="form-group">
                     <label asp-for="Id" class="control-label"></label>
-                    <input asp-for="Id" class="form-control" />
+                    <input asp-for="Id" class="form-control" }" />
                     <span asp-validation-for="Id" class="text-danger"></span>
                 </div>
                 <div class="form-group">
@@ -28,10 +34,15 @@
                     <span asp-validation-for="Content" class="text-danger"></span>
                 </div>
                 @*<div class="form-group">
-                        <label asp-for="tag" class="control-label"></label>
-                        <input asp-for="tag" class="form-control" />
-                        <span asp-validation-for="tag" class="text-danger"></span>
-                    </div>*@
+            <label asp-for="Content" class="control-label"></label>
+            <input asp-for="Content" class="form-control" />
+            <span asp-validation-for="Content" class="text-danger"></span>
+        </div>*@
+                @*<div class="form-group">
+            <label asp-for="tag" class="control-label"></label>
+            <input asp-for="tag" class="form-control" />
+            <span asp-validation-for="tag" class="text-danger"></span>
+        </div>*@
                 <div class="form-check form-check-inline">
                     <input asp-for="tag" class="form-check-input" type="radio" id="inlineRadio1" value="Work">
                     <label asp-for="tag" class="form-check-label" for="inlineRadio1">Work</label>

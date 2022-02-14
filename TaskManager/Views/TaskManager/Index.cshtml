@@ -19,15 +19,7 @@
         @Html.DisplayFor(modelItem => item.Content)
     </div>
 
-    @*<div class="stopwatch">
-            <i class="bi bi-stopwatch-fill"></i>
-            <p class="stopwatch-time">11:11:11</p>
-            <button asp-controller="ButtonController" type="button" class="btn btn-dark startwatch"><i class="bi bi-play-circle-fill"></i></button>
-            <button type="button" class="btn btn-dark stop"><i class="bi bi-stop-circle-fill"></i></button>
-            <button type="button" class="btn btn-dark pausewatch"><i class="bi bi-pause-circle-fill"></i></button>
-            <button type="button" class="btn btn-dark restartwatch"><i class="bi bi-skip-start-circle-fill"></i></button>
-
-        </div>*@
+  
     <div class="div-footer options-container d-flex flex-row justify-content-between">
         <div class="options p-2 ">
             <a asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-fill" fill="black"></i></a>
@@ -38,7 +30,8 @@
             @Html.DisplayFor(modelItem => item.TimeCreated)
         </div>
     </div>
-</div>}
+</div>
+        }
     </div>
 </div>
 

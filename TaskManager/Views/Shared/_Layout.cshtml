@@ -8,36 +8,28 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
-<body class="">
-    <header class="header ">
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow mb-3">
-            <div class="d-flex align-items-between">
+<body>
+    <header class="header d-flex-inline">
+        <nav class="navbar  mb-3 d-flex">
+            
 
                 <a class="navbar-brand p-2" asp-area="" asp-controller="TaskManager" asp-action="Index">task manager</a>
-                <a class="add-task" asp-area="" asp-controller="TaskManager" asp-action="Create">
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="whitesmoke" class="bi bi-plus-square" viewBox="0 0 16 16">
+                <a class="add-task p-2" asp-area="" asp-controller="TaskManager" asp-action="Create">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"  class="bi bi-plus-square" viewBox="0 0 16 16">
                  <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
                  <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                 </svg>  </a>
+                <div class="sort d-flex ml-auto align-self-end"><div class="h6 sort">display by:</div>
+                    <div class="h6 sort "> @Html.ActionLink("name", "Index", new { sortOrder = ViewBag.NameSortParm })</div>
+                    <div class="h6 sort ">@Html.ActionLink("time created", "Index", new { sortOrder = ViewBag.DateSortParm })</div>
+                </div>
 
-                <a> @Html.ActionLink("Name", "Index", new { sortOrder = ViewBag.NameSortParm })</a>
-                <div>@Html.ActionLink("TimeCreated", "Index", new { sortOrder = ViewBag.DateSortParm })</div>
-
-                @*<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-            <ul class="navbar-nav flex-grow-1">
-                <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                </li>
-            </ul>
-        </div>*@
+             
             </div>
         </nav>
     </header>
     
-        <main role="main" class="pb-3 justify-content-center">
+        <main role="main" >
             @RenderBody()
         </main>
     

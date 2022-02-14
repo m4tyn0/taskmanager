@@ -9,8 +9,8 @@
 
 
     
-    <div class="d-flex row centerovac card ">
-        <div class="col-md-4 centerovac ">
+    <div class=" d-flex justify-content-around ">
+        <div class="col-md-4 card ">
             <form asp-action="Create">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
@@ -18,11 +18,7 @@
                     <input type="datetime-local" asp-for="TimeCreated" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" readonly/>
                     <span asp-validation-for="TimeCreated" class="text-danger"></span>
                 </div>
-                @*<div class="form-group">
-                    <label asp-for="Id" class="control-label"></label>
-                    <input asp-for="Id" class="form-control" }" readonly />
-                    <span asp-validation-for="Id" class="text-danger"></span>
-                </div>*@
+               
                 <div class="form-group">
                     <label asp-for="Name" class="control-label"></label>
                     <input asp-for="Name" class="form-control" />
@@ -33,16 +29,7 @@
                     <input asp-for="Content" class="form-control" />
                     <span asp-validation-for="Content" class="text-danger"></span>
                 </div>
-                @*<div class="form-group">
-            <label asp-for="Content" class="control-label"></label>
-            <input asp-for="Content" class="form-control" />
-            <span asp-validation-for="Content" class="text-danger"></span>
-        </div>*@
-                @*<div class="form-group">
-            <label asp-for="tag" class="control-label"></label>
-            <input asp-for="tag" class="form-control" />
-            <span asp-validation-for="tag" class="text-danger"></span>
-        </div>*@
+      
                 <div class="form-check form-check-inline">
                     <input asp-for="tag" class="form-check-input" type="radio" id="inlineRadio1" value="Work">
                     <label asp-for="tag" class="form-check-label" for="inlineRadio1">Work</label>
@@ -55,15 +42,16 @@
                     <input asp-for="tag" class="form-check-input" type="radio" id="inlineRadio3" value="Hobbies">
                     <label asp-for="tag" class="form-check-label" for="inlineRadio3">Hobbies</label>
                 </div>
-                <div class="form-group">
+                <div class="form-group text-center">
                     <input type="submit" value="Create" class="btn btn-primary" />
+                    <a asp-action="Index">Back to List</a>
                 </div>
             </form>
         </div>
     </div>
 
     <div>
-        <a asp-action="Index">Back to List</a>
+      
     </div>
 
 @section Scripts {

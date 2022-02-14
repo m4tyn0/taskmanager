@@ -26,6 +26,7 @@ using TaskManager.Models;
 #line default
 #line hidden
 #nullable disable
+<<<<<<< Updated upstream
 #nullable restore
 #line 3 "/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/Views/_ViewImports.cshtml"
 using TaskManager.Controllers;
@@ -35,6 +36,10 @@ using TaskManager.Controllers;
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4ecc4d2bcad30a6aee551879bc7e7094ebb4184d", @"/Views/Shared/Error.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"769665f143f4b1f12903ebc8dc30fc33d7f5a735", @"/Views/_ViewImports.cshtml")]
+=======
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4ecc4d2bcad30a6aee551879bc7e7094ebb4184d", @"/Views/Shared/Error.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b2d85dcc713d4f2a4c9670ea3b0aa59ecf8d2afb", @"/Views/_ViewImports.cshtml")]
+>>>>>>> Stashed changes
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998

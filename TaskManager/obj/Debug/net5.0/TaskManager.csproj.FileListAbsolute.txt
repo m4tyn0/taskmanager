@@ -289,6 +289,7 @@
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/refs/WindowsBase.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/TaskManager.Views.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/TaskManager.Views.pdb
+<<<<<<< Updated upstream
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Humanizer.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
@@ -298,6 +299,72 @@
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.CodeAnalysis.CSharp.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.CodeAnalysis.Razor.dll
+=======
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.AspNetCore.Razor.Language.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.CodeAnalysis.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.CodeAnalysis.Razor.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.csproj.AssemblyReference.cache
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.AssemblyInfoInputs.cache
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.AssemblyInfo.cs
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.csproj.CoreCompileInputs.cache
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.MvcApplicationPartsAssemblyInfo.cs
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.MvcApplicationPartsAssemblyInfo.cache
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.RazorAssemblyInfo.cache
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.RazorAssemblyInfo.cs
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/scopedcss/bundle/TaskManager.styles.css
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/staticwebassets/TaskManager.StaticWebAssets.Manifest.cache
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.TagHelpers.input.cache
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.TagHelpers.output.cache
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.RazorCoreGenerate.cache
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.RazorTargetAssemblyInfo.cache
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.RazorTargetAssemblyInfo.cs
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.Views.pdb
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.csproj.CopyComplete
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/ref/TaskManager.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.pdb
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.genruntimeconfig.cache
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Humanizer.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+>>>>>>> Stashed changes
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.CodeAnalysis.Workspaces.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.Data.SqlClient.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.Data.Sqlite.dll
@@ -309,7 +376,10 @@
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Sqlite.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.SqlServer.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+<<<<<<< Updated upstream
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll
+=======
+>>>>>>> Stashed changes
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.Identity.Client.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
@@ -339,6 +409,7 @@
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/System.Runtime.Caching.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll
+<<<<<<< Updated upstream
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/cs/Microsoft.CodeAnalysis.resources.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/de/Microsoft.CodeAnalysis.resources.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/es/Microsoft.CodeAnalysis.resources.dll
@@ -365,6 +436,8 @@
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+=======
+>>>>>>> Stashed changes
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
@@ -418,6 +491,7 @@
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+<<<<<<< Updated upstream
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.csproj.AssemblyReference.cache
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.GeneratedMSBuildEditorConfig.editorconfig
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.AssemblyInfoInputs.cache
@@ -436,11 +510,15 @@
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+=======
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/Shared/Index.cshtml.g.cs
+>>>>>>> Stashed changes
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/TaskManager/Create.cshtml.g.cs
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/TaskManager/Delete.cshtml.g.cs
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/TaskManager/Details.cshtml.g.cs
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/TaskManager/Edit.cshtml.g.cs
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/TaskManager/Index.cshtml.g.cs
+<<<<<<< Updated upstream
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.RazorTargetAssemblyInfo.cache
@@ -451,3 +529,7 @@
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/ref/TaskManager.dll
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.pdb
 /Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/obj/Debug/net5.0/TaskManager.genruntimeconfig.cache
+=======
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/PagedList.dll
+/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/bin/Debug/net5.0/PagedList.Mvc.dll
+>>>>>>> Stashed changes

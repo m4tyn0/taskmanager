@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "QSDOQCsv4rybscZohx9xRqi4NuEyOi3265OpN5/4ybPjNiYy0a8+zcKvoA7wN+hcADYWGuQkZ0/iwMv4Kvi3jA==",
+=======
+  "dgSpecHash": "eQ+3Kh1glj4K7I8Rb+PelcoTWdQ1uc6OtUXm9FV2yHS7T9UAosif5zA6YfCJvCcZ2vKGg6jeAKMG3TegK9+8Ng==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/TaskManager.csproj",
   "expectedPackageFiles": [
@@ -60,6 +64,11 @@
     "/Users/matyno/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/matyno/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/Users/matyno/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
+<<<<<<< Updated upstream
+=======
+    "/Users/matyno/.nuget/packages/pagedlist/1.17.0/pagedlist.1.17.0.nupkg.sha512",
+    "/Users/matyno/.nuget/packages/pagedlist.mvc/4.5.0/pagedlist.mvc.4.5.0.nupkg.sha512",
+>>>>>>> Stashed changes
     "/Users/matyno/.nuget/packages/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
     "/Users/matyno/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.4/sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "/Users/matyno/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
@@ -140,5 +149,30 @@
     "/Users/matyno/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "/Users/matyno/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.14/microsoft.netcore.app.host.osx-x64.5.0.14.nupkg.sha512"
   ],
+<<<<<<< Updated upstream
   "logs": []
+=======
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Balíček PagedList 1.17.0 se místo cílové verze rozhraní .NET Framework projektu net5.0 obnovil pomocí .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8. Balíček nemusí být plně kompatibilní s vaším projektem.",
+      "libraryId": "PagedList",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Balíček PagedList.Mvc 4.5.0 se místo cílové verze rozhraní .NET Framework projektu net5.0 obnovil pomocí .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8. Balíček nemusí být plně kompatibilní s vaším projektem.",
+      "libraryId": "PagedList.Mvc",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+>>>>>>> Stashed changes
 }

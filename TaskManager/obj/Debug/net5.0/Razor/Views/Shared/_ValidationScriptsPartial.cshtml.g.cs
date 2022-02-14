@@ -26,6 +26,7 @@ using TaskManager.Models;
 #line default
 #line hidden
 #nullable disable
+<<<<<<< Updated upstream
 #nullable restore
 #line 3 "/Users/matyno/Desktop/CODE/EriaLabs/TaskManager/TaskManager/Views/_ViewImports.cshtml"
 using TaskManager.Controllers;
@@ -35,6 +36,10 @@ using TaskManager.Controllers;
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5a2a59b56ea0549b30f2b9bfacb92db68c75233d", @"/Views/Shared/_ValidationScriptsPartial.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"769665f143f4b1f12903ebc8dc30fc33d7f5a735", @"/Views/_ViewImports.cshtml")]
+=======
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5a2a59b56ea0549b30f2b9bfacb92db68c75233d", @"/Views/Shared/_ValidationScriptsPartial.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b2d85dcc713d4f2a4c9670ea3b0aa59ecf8d2afb", @"/Views/_ViewImports.cshtml")]
+>>>>>>> Stashed changes
     public class Views_Shared__ValidationScriptsPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/lib/jquery-validation/dist/jquery.validate.min.js"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -63,7 +68,11 @@ using TaskManager.Controllers;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a2a59b56ea0549b30f2b9bfacb92db68c75233d4112", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a2a59b56ea0549b30f2b9bfacb92db68c75233d3921", async() => {
+>>>>>>> Stashed changes
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -77,7 +86,11 @@ using TaskManager.Controllers;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\n");
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a2a59b56ea0549b30f2b9bfacb92db68c75233d5135", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a2a59b56ea0549b30f2b9bfacb92db68c75233d4944", async() => {
+>>>>>>> Stashed changes
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

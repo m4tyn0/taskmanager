@@ -42,7 +42,7 @@ namespace TaskManager.Controllers
             return View(tasks.ToList());
         }
 
-        public async Task<IActionResult> Details(string id)
+        public async Task<IActionResult> Details(int id)
         {
             if (id == null)
             {
@@ -78,7 +78,7 @@ namespace TaskManager.Controllers
             return View(taskUnit);
         }
 
-        public async Task<IActionResult> Edit(string id)
+        public async Task<IActionResult> Edit(int id)
         {
             if (id == null)
             {
@@ -96,7 +96,7 @@ namespace TaskManager.Controllers
        
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,Name,Content,tag,TimeCreated,TimeElapsed")] TaskUnit taskUnit)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Content,tag,TimeCreated,TimeElapsed")] TaskUnit taskUnit)
         {
             if (id != taskUnit.Id)
             {
@@ -126,7 +126,7 @@ namespace TaskManager.Controllers
             return View(taskUnit);
         }
 
-        public async Task<IActionResult> Delete(string id)
+        public async Task<IActionResult> Delete(int id)
         {
             if (id == null)
             {
@@ -145,7 +145,7 @@ namespace TaskManager.Controllers
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(string id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var taskUnit = await this.context.TaskUnit.FindAsync(id);
             this.context.TaskUnit.Remove(taskUnit);
@@ -153,7 +153,7 @@ namespace TaskManager.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool TaskUnitExists(string id)
+        private bool TaskUnitExists(int id)
         {
             return this.context.TaskUnit.Any(e => e.Id == id);
         }

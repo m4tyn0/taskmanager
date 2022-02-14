@@ -17,8 +17,9 @@ namespace TaskManager.Migrations
 
             modelBuilder.Entity("TaskManager.Models.TaskUnit", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Content")
                         .HasColumnType("TEXT");

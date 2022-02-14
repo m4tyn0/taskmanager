@@ -8,8 +8,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace TaskManager.Migrations
 {
     [DbContext(typeof(TaskManagerContext))]
-    [Migration("20220214100703_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20220214125302_ThirdCreate")]
+    partial class ThirdCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -19,8 +19,9 @@ namespace TaskManager.Migrations
 
             modelBuilder.Entity("TaskManager.Models.TaskUnit", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Content")
                         .HasColumnType("TEXT");
